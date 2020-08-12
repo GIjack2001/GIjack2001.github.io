@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Search</title>
+    </head>
+    <body>
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" height="33px" width="92px" style="position: absolute; top:20px; left: 27px; z-index: 2;">
+        <div style="position: relative; top: 0px; width: 100vw; background-color: #f1f1f1; z-index: 1; height: 60px; margin-top: 0px; padding-top: 10px; text-align: right;">
+            <a class="toplink" href="/index.html">Search</a>
+            <a class="toplink" href="/images.html" style="padding-right:27px;">Images</a>
+        </div>
+        <div class="appbar">Advanced Search</div>
+        <div class="separator"></div>
+            <form action="https://google.com/search">
+                <div class="grid-container">
+                    <div class="grid-item"><span class="advtitle">Find pages with...</span></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"><span class="advtitle2">To do this in the search box.</span></div>
+                    <div class="grid-item"><span class="advtxt">all these words:</span></div>
+                    <div class="grid-item">
+                            <input class="advfield" type="text" name="as_q">
+                    </div>
+                    <div class="grid-item"><span class="advtxt2">Type the important words: <span class="highlight">tri-colour rat terrier</span></span></div>
+                    <div class="grid-item"><span class="advtxt">this exact word or phrase:</span></div>
+                    <div class="grid-item">
+                            <input class="advfield" type="text" name="as_epq">
+                    </div>
+                    <div class="grid-item"><span class="advtxt2">Put exact words in quotes: <span class="highlight">"rat terrier"</span></span></div>
+                    <div class="grid-item"><span class="advtxt">any of these words:</span></div>
+                    <div class="grid-item">
+                        <input class="advfield" type="text" name="as_oq">
+                    </div>
+                    <div class="grid-item"><span class="advtxt2">Type OR between all the words you want: <span class="highlight">miniature OR standard</span></span></div>
+                    <div class="grid-item"><span class="advtxt">none of these words:</span></div>
+                    <div class="grid-item">
+                        <input class="advfield" type="text" name="as_eq">
+                    </div>
+                    <div class="grid-item"><span class="advtxt2">Put a minus sign just before words that you don't want: <span class="highlight">-rodent, -"Jack Russell"</span></span></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item">
+                        <input class="advbutton" type="submit" value="Advanced Search">
+                    </div>
+                    <div class="grid-item"></div>                        
+                </div>
+            </form>
+    </body>
+</html>
